@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Index = () => {
+const HomePage = () => {
     return (
         <div className="flex h-screen items-center justify-center">
              <h1 className="text-5xl text-red-500">Hello Coder....!</h1>
@@ -8,4 +8,4 @@ const Index = () => {
     )
 }
 
-export default Index
+export default HomePage
