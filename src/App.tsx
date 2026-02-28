@@ -1,3 +1,4 @@
+import React from 'react';
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import 'react-toastify/dist/ReactToastify.css';
