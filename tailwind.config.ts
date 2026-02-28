@@ -12,7 +12,6 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				// Re-adding the 'inter' font family definition to resolve the error
 				'inter': ['Inter', 'sans-serif']
 			},
 		}

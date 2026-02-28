@@ -6,6 +6,13 @@
 
 
 
+html,
+body {
+    height: 100%;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+    scroll-behavior: smooth; /* Smooth scrolling for anchor links */
+}
+
 /* Slim custom scrollbar */
 .sidebar-scrollable::-webkit-scrollbar {
     width: 6px;

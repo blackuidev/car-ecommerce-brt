@@ -20,7 +20,8 @@ const Card = React.forwardRef<
     className={cn(
       "rounded-lg bg-background/70 text-card-foreground shadow-sm",
       bordered ? "border" : "border-none",
-      hoverable ? "transition-shadow duration-200 hover:shadow-md" : "",
+      hoverable ? "transition-all duration-300 hover:shadow-lg hover:scale-[1.02]" : "",
+
       compact ? "p-3" : "p-0",
       className
     )}
