@@ -15,7 +15,8 @@
         "./src/*"
       ]
     },
-    "jsx": "react-jsx", // ✅ REQUIRED for React 17+ or Next.js    "noImplicitAny": false,
+    "jsx": "react-jsx",
+    "noImplicitAny": false,
     "noUnusedParameters": false,
     "skipLibCheck": true,
     "allowJs": true,
