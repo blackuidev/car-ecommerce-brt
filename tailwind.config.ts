@@ -1,4 +1,6 @@
 import type { Config } from "tailwindcss";
+import tailwindcssAnimate from "tailwindcss-animate";
+import lightswindPlugin from "lightswind/plugin";
 
 export default {
 	darkMode: 'class',
@@ -17,8 +19,7 @@ export default {
 		}
 	}, // The theme now extends the default configuration to include 'font-inter'
 	plugins: [
-		require("tailwindcss-animate"),
-		require("lightswind/plugin"),
-
+		tailwindcssAnimate,
+		lightswindPlugin,
 	],
 } satisfies Config;
